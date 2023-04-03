@@ -169,33 +169,6 @@ body{
     }
 }
 /* CONTACT US CSS */
-/* FOOTER CSS */
-.footer{
-    padding:24px ;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-}
-.yellowtexts{
-    display: flex;
-    flex-direction: row;
-    color: #fed136;
-}
-.yellowtext{
-    margin-left: 12px;
-    margin-right: 12px;
-}
-@media screen and (max-width:768px){
-    .footer{
-        display: flex;
-        flex-direction: column;
-    }
-}
-body{ 
-    margin: 0; 
-    padding: 0; 
-} 
 .head-div{ 
     background-color: #212529; 
     background-image: url(https://learn.seytech.co/assets/projects/html-css/projects/1-agency/assets/img/map-image.png); 
@@ -256,3 +229,31 @@ body{
         width: 40%;
     }
 }
+
+/* FOOTER CSS */
+.footer{
+    padding:24px ;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.yellowtexts{
+    display: flex;
+    flex-direction: row;
+    color: #fed136;
+}
+.yellowtext{
+    margin-left: 12px;
+    margin-right: 12px;
+}
+@media screen and (max-width:768px){
+    .footer{
+        display: flex;
+        flex-direction: column;
+    }
+}
+body{ 
+    margin: 0; 
+    padding: 0; 
+} 
