@@ -5,6 +5,70 @@ body{
 }
 /* HEADER CSS*/
 /* SERVICES CSS */
+body{
+    margin: 0;
+    padding: 0;
+}
+.service{
+    padding: 96px;
+    text-align: center;
+}
+.servicecard{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-between;
+}
+.serviceimg{
+    width: 40%;
+}
+.contentservicecard{
+    width: 30%;
+}
+.headingtextservice{
+    font-size: 40px;
+    margin-bottom: 16px;
+    font-family : 'Montserrat', sans-serif;
+}
+.subheadingtextservice{
+    font-size: 16px;
+    color: #6c757d;
+    margin-bottom: 64px;
+    font-family: 'PT Serif', serif;
+}
+.textservicecard{
+    margin-bottom: 16px;
+    margin-top: 16px;
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+}
+.ptextservicecard{
+    color: #6c757d;
+    margin-top: 0px;
+    margin-bottom: 16px;
+    font-family: 'Roboto Slab', serif;
+    line-height: 1.75;
+}
+@media screen and (max-width:768px) {
+    .serviceimg{
+        width: 40%;
+    }
+    .contentservicecard{
+        width: 80%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .servicecard{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .service{
+        padding: 16px;
+        text-align: center;
+    }
+}
 /* PORTFOLIO CSS */
 .portfolio{
     background-color: #f8f9fa;
