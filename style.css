@@ -4,6 +4,106 @@ body{
     padding: 0;
 }
 /* HEADER CSS*/
+@media (max-width: 992px) {
+    nav {
+        border: 1px solid #282828;
+  background-color: #282828;
+  height: 80px;
+    }
+	.cont {
+		padding-top: 10rem;
+		padding-bottom: 6rem;
+	}
+	.nav_ul li{
+		display: none;
+	}
+  }
+
+  @media (min-width: 992px) {
+	.nav_ul li{
+		float: right;
+		list-style: none;
+		padding: 20px;
+	}
+	.nav_ul li:first-child {
+		margin-right: 150px;
+	}
+  }
+
+
+body {
+    padding: 0;
+    margin: 0;
+}
+header {
+    background-image: url("https://learn.seytech.co/assets/projects/html-css/projects/1-agency/assets/img/header-bg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+}
+.h1_nav {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    font-size: 4.5rem;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 4rem;
+}
+.h3_nav {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    font-size: 2.5rem;
+    font-style: italic;
+    margin-bottom: 2rem;
+    font-weight: 500;
+}
+.cont {
+    padding-top: 17.5rem;
+	padding-bottom: 14.5rem;
+    text-align: center;
+}
+.btn_nav {
+    color: white;
+    background-color: #fed136;
+    padding: 20px 40px;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    font-size: 18px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    border-color: #fed136;
+    
+}
+
+nav {
+	position: fixed;
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+}
+
+
+.a_nav {
+    text-decoration: none;
+    color: white;
+}
+.h2_nav a{
+    color: gold;
+}
+
+.h2_nav {
+    float: left;
+    padding: 10px;
+    margin-left: 5vh;
+}
 /* SERVICES CSS */
 body{
     margin: 0;
