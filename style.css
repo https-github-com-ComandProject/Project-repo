@@ -192,3 +192,67 @@ body{
         flex-direction: column;
     }
 }
+body{ 
+    margin: 0; 
+    padding: 0; 
+} 
+.head-div{ 
+    background-color: #212529; 
+    background-image: url(https://learn.seytech.co/assets/projects/html-css/projects/1-agency/assets/img/map-image.png); 
+    padding: 96px; 
+    text-align: center; 
+} 
+.contactusmainhead{ 
+    color: white; 
+    margin-bottom: 16px; 
+    font-size: 40px; 
+} 
+.contactussubmainhead{ 
+    color: #6c757d; 
+    margin-bottom: 64px; 
+} 
+#btn{ 
+    color: white; 
+    background-color: #fed136; 
+    font-size: 18px; 
+    border-radius: 4px; 
+    padding: 18px 40px; 
+    border: none; 
+    text-align: center; 
+} 
+.block{ 
+    margin-bottom: 24px; 
+    width: 450px; 
+} 
+.input{ 
+    font-size: 16px; 
+    padding: 20px; 
+    width: 450px; 
+} 
+.area{ 
+    width: 450px; 
+} 
+.textleft{ 
+    display: flex; 
+    flex-direction: column; 
+    margin-right: 12px; 
+} 
+.textright{ 
+    margin-left: 12px; 
+} 
+.form{ 
+    display: flex; 
+    flex-direction: row; 
+    text-align: center; 
+    justify-content: space-around; 
+}
+@media screen and (max-width:555px){
+    .form{
+        width: 80%;
+    }
+}
+@media screen and (max-width:980px){
+    .form{
+        width: 40%;
+    }
+}
