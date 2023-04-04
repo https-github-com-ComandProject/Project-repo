@@ -95,6 +95,9 @@ nav {
     text-decoration: none;
     color: white;
 }
+.a_nav:hover{
+    color: yellow;
+}
 .h2_nav a{
     color: gold;
 }
@@ -383,14 +386,20 @@ body{
     text-align: center; 
     justify-content: space-around; 
 }
-@media screen and (max-width:555px){
+@media screen and (max-width:400px){
     .form{
-        width: 80%;
+        width: 300px;
     }
+    .head-div{ 
+        padding: 24px; 
+        text-align: center; 
+    } 
 }
 @media screen and (max-width:980px){
     .form{
         width: 40%;
+        display: flex;
+        flex-direction: column;
     }
 }
 
